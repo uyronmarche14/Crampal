@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Head from "next/head";
-import { ArrowRight, Book, Clock, FileText, Users } from "lucide-react";
+import { ArrowRight, Book, Clock, Users } from "lucide-react";
 import CardHeader from "@/app/components/ui_design/cardHeader";
 
 export default function Home() {
