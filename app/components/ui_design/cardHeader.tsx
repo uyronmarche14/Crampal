@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowRight, FileText } from "lucide-react";
-const cardHeader = () => {
+const CardHeader = () => {
   return (
     <div className="lg:w-1/2">
       <div className="relative">
@@ -20,7 +20,9 @@ const cardHeader = () => {
               <h3 className="font-semibold text-lg text-gray-800">
                 Modern Psychology 101
               </h3>
-              <p className="text-sm text-gray-600">Final Exam Reviewer</p>
+              <p className="text-sm text-gray-600">
+                &quot;Final Exam Reviewer&quot;
+              </p>
               <div className="flex items-center mt-2">
                 <div className="h-2 w-full bg-gray-200 rounded-full">
                   <div className="h-2 w-3/4 bg-indigo-600 rounded-full"></div>
@@ -79,4 +81,4 @@ const cardHeader = () => {
   );
 };
 
-export default cardHeader;
+export default CardHeader;
